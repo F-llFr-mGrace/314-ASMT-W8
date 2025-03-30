@@ -22099,7 +22099,7 @@ MonoBehaviour:
   - {fileID: 1624181486}
   - {fileID: 704503772}
   lockedPanel: {fileID: 1696348146}
-  isLocked: 1
+  isLocked: 0
   passcode: 1345
 --- !u!1 &1308209776
 GameObject:
@@ -43058,14 +43058,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129327902619356904}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.47000027, y: 0, z: 0.54400027}
   m_LocalScale: {x: 0.060000006, y: 0.060000002, z: 0.060000006}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9059681358225548593}
   m_Father: {fileID: 886324716128447179}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!54 &6003112905920721512
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -43218,6 +43218,7 @@ MonoBehaviour:
       m_Calls: []
   doorObject: {fileID: 2060018241841495086}
   combolock: {fileID: 1297717877}
+  isRightSide: 1
 --- !u!23 &6060206754774164528
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -44197,6 +44198,7 @@ MonoBehaviour:
       m_Calls: []
   doorObject: {fileID: 8330926810176063971}
   combolock: {fileID: 1297717877}
+  isRightSide: 0
 --- !u!23 &7399446336683152240
 MeshRenderer:
   m_ObjectHideFlags: 0
