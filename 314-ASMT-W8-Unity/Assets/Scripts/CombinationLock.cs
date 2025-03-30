@@ -14,7 +14,7 @@ public class CombinationLock : MonoBehaviour
     [SerializeField] XrButtonInteractable[] comboButtons;
     [SerializeField] Image lockedPanel;
 
-    [SerializeField] bool isLocked;
+    public bool isLocked;
     [SerializeField] string passcode = "134";
 
     // Start is called before the first frame update
