@@ -39,7 +39,6 @@ public class DoorInteractable : SimpleHingeInteractable
         }
         else
         {
-            Debug.Log(transform.localRotation.eulerAngles.y);
             transform.localEulerAngles = new Vector3(0, Mathf.Clamp(transform.localRotation.eulerAngles.y, 270, 360 - Mathf.Epsilon), 0);
         }
     }
